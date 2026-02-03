@@ -61,7 +61,7 @@ description: CEO式任务委派工作流程。当收到任何任务时使用此�
 ### 派发执行者
 ```javascript
 sessions_spawn({
-  task: "写小说第20章，主角苏尘...",
+  task: "写小说第20章，主角苏..",
   model: "opus",  // 创作任务用 Opus
   label: "chapter-20-writer",
   runTimeoutSeconds: 600
